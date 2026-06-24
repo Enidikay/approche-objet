@@ -19,14 +19,6 @@ public class Personne {
         this.prenom = prenom;
     }
 
-    public void displayInfo(){
-        displayPersonne();
-        adresse.displayAdresse();
-    }
-    public void displayPersonne() {
-        System.out.println(nom.toUpperCase() + " " + prenom);
-    }
-
     public void setNom(String nom) {
         this.nom = nom;
     }
@@ -49,5 +41,10 @@ public class Personne {
 
     public AdressePostale getAdresse() {
         return adresse;
+    }
+
+    @Override
+    public String toString(){
+        return nom.toUpperCase() + " " + prenom + " " + adresse;
     }
 }
