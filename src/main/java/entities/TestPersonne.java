@@ -11,5 +11,3 @@ public class TestPersonne {
         pers2.displayPersonne();
     }
 }
-
-

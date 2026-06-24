@@ -6,4 +6,3 @@ public class TestAdressePostale {
         adr1.displayAdresse();
     }
 }
-
