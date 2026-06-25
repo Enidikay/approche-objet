@@ -10,7 +10,7 @@ public class CompteTaux extends Compte{
 
     @Override
     public String toString() {
-        return "CompteTaux{" + "tauxRemu=" + tauxRemu + '}' + super.toString();
+        return super.toString()+ "\n" + "Taux du compte: " + tauxRemu;
     }
 
     public int getTauxRemu() {
