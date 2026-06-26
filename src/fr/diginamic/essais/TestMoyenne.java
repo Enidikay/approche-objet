@@ -1,4 +1,4 @@
-package fr.diginamic.operations;
+package fr.diginamic.essais;
 
 import fr.diginamic.operations.CalculMoyenne;
 
