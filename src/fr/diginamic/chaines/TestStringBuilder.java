@@ -10,4 +10,5 @@ public class TestStringBuilder {
         long fin = System.currentTimeMillis();
         System.out.println("Temps écoulé en millisecondes :" + (fin - debut));
     }
+
 }
